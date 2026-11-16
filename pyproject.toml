@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "python_cloud_kitchen_pos"
+version = "1.0.0"
+description = "Python Cloud Kitchen Pos - Production Grade Python Engine"
+authors = [{ name = "Shyamkumar Pandey", email = "shyampandey1104@gmail.com" }]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pytest>=7.0.0"
+]
